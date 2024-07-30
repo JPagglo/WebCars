@@ -42,7 +42,7 @@ export function Login(){
       .then((user) =>{
         console.log("logado")
         console.log(user)
-        toast.success("Logado com sucesso")
+        toast.success("Logado c/ sucesso")
         navigate ("/dashboard", {replace:true})
       })
       .catch(err =>{
